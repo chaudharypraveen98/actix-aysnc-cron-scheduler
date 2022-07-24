@@ -16,7 +16,7 @@ async fn get_ips() -> HashMap<String, String> {
 
 #[actix_web::main] // or #[tokio::main]
 async fn main() -> std::io::Result<()> {
-    // actix_rt::spawn(async move {
+    // actix_rt::spawn(async {
     //     let mut interval = time::interval(Duration::from_secs(20));
     //     loop {
     //         interval.tick().await;
